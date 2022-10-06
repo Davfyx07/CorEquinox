@@ -1,0 +1,82 @@
+ /*
+#198754 color verde de barra y logo
+#212529 color  negro barra*/
+
+
+ body::before {
+     display: block;
+     content: '';
+ }
+
+ /* Fondo y separar de la barra */
+ #Nosotros {
+     background: #e9f1ed;
+
+ }
+
+ /*Medio ajuste para que los botones manden lo más centrado posible a la seccion*/
+ #Nosotros .container {
+     margin-top: 14%;
+ }
+
+ /*------------------------------*/
+ /* COlor de letrasd e barra de naveagion*/
+ #navmenu ul li a {
+     color: #ffffff;
+     font-weight: 500;
+ }
+
+ /* Efecto de color para las ñetrasd e la barra*/
+ #navmenu ul li a:hover {
+     color: #212529;
+ }
+
+ /* Fondo seccion video*/
+ #video {
+     background: #136841;
+ }
+
+ /* Fondo seccion cuiaddores*/
+ #cuidadores {
+     background: #e9f1ed;
+ }
+
+ /* Fondo de las tarejtas de los trabajdores*/
+ #carta {
+     background: #212529;
+ }
+
+ /* Fondo seccion servicios*/
+ #servicios {
+     background: #136841;
+ }
+
+ /* Fondo seccion caontactos*/
+ #Contactos {
+     background: #e9f1ed;
+ }
+
+ /* misma vaina de arriba pero para listas*/
+ #Contactos ul li {
+     background: #e9f1ed;
+ }
+
+ /*tamaño mapa*/
+
+ #map {
+
+     overflow: hidden;
+     padding-bottom: 56.25%;
+     position: relative;
+     height: 0;
+
+ }
+
+ #map iframe {
+     left: 0;
+     top: 0;
+     height: 100%;
+     width: 100%;
+     position: absolute;
+
+ }
